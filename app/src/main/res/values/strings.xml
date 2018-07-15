@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Health</string>
+    <string name="title_home">Home</string>
+    <string name="title_goals">Goals</string>
+    <string name="title_workout">Workout</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_settings">Settings</string>
+    <string name="username">Joe Schmoe</string>
+    <string name="level">Lvl. 0</string>
+</resources>
