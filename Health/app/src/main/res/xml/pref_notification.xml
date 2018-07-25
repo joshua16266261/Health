@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+
+
+    <RingtonePreference
+        android:defaultValue="content://settings/system/notification_sound"
+        android:key="@string/pref_title_workout_reminder"
+        android:ringtoneType="notification"
+        android:title="Workout Reminder" />
+
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_title_workout_history"
+        android:title="Workout History" />
+
+
+
+</PreferenceScreen>

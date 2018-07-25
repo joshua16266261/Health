@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="history_switch"
+        android:title="Workout History" />
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/break_duration_titles"
+        android:entryValues="@array/break_duration_values"
+        android:key="pref_title_break_duration"
+        android:title="Break Duration" />
+    <ListPreference
+        android:defaultValue="Metric"
+        android:entries="@array/measures_titles"
+        android:entryValues="@array/measures_titles"
+        android:key="@string/pref_title_measures"
+        android:title="Measurement System" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Colorblind Mode" />
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="pref_title_display_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Creature Name" />
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>
